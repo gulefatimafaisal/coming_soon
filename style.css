@@ -77,59 +77,46 @@
 /* General adjustments for small screens */
 @media (max-width: 768px) {
     .content h1 {
-        font-size: 48px;
-        text-align: center;
+        font-size: 8vw;
     }
-    .launch-time {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .launch-time div {
-        flex-basis: 80px;
-        text-align: center;
-        margin: 10px 0;
-    }
-    .content button {
-        margin: 20px auto 0;
-        justify-content: center;
-    }
-    .rocket {
-        width: 180px;
-        right: 5%;
-    }
-    .logo {
-        width: 100px;
-    }
-}
 
-/* For extra small devices (like phones) */
-@media (max-width: 480px) {
-    .content {
-        padding: 0 5%;
-    }
-    .content h1 {
-        font-size: 36px;
-    }
     .launch-time div p {
-        font-size: 40px;
+        font-size: 2rem;
     }
-    .launch-time div span {
-        font-size: 12px;
+
+    .content p {
+        font-size: 1.2rem;
     }
+
+    .content button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
     .rocket {
         width: 150px;
     }
 }
 
-/* For larger screens (like desktops) */
-@media (min-width: 1200px) {
+@media (max-width: 480px) {
+    .logo {
+        width: 90px;
+    }
+
     .content h1 {
-        font-size: 72px;
+        font-size: 10vw;
     }
-    .rocket {
-        width: 300px;
-    }
+
     .launch-time div p {
-        font-size: 72px;
+        font-size: 1.8rem;
+    }
+
+    .content button {
+        font-size: 0.8rem;
+        padding: 8px 16px;
+    }
+
+    .rocket {
+        width: 100px;
     }
 }
